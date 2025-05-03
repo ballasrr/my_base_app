@@ -1,6 +1,5 @@
-from typing import Annotated
 from routers.items import router as items_router
-from fastapi import Depends, FastAPI
+from fastapi import  FastAPI
 
 app = FastAPI()
 
